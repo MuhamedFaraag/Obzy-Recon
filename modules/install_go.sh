@@ -85,6 +85,5 @@ install_go() {
     setup_path
     clean_up
 
-    echo ""
-    check_if_installed
+    echo "✅ Go is already installed: $(go version)"
 }
